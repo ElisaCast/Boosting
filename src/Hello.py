@@ -11,7 +11,7 @@ except ImportError:
     print("Streamlit no está instalado. Por favor, instálalo utilizando 'pip install streamlit'.")
 
 
-model = load(open("C:/Users/elisa/OneDrive/Escritorio/Data Sciencie/ML-BosstingAlgoritmo/models/boosting_classifier_nestimators-20_learnrate-0.001_42.sav", "rb"))
+model = load(open("boosting_classifier_nestimators-20_learnrate-0.001_42.sav", "rb"))
 
 class_dict = {
     "0": "No tiene diabetes",
